@@ -1,4 +1,5 @@
 const path = require('path')
+const cors = require('cors');
 const express = require('express')
 require('colors')
 require('dotenv').config()
@@ -10,6 +11,9 @@ const PORT = process.env.PORT || 5000
 connectDB()
 
 const app = express()
+
+// Allow cross-origin requests
+app.use(cors());
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
