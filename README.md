@@ -19,15 +19,6 @@ The Apple Support Portal provides the following features:
 
 The Apple Support Portal server side provides functionalities related to user management, support tickets, and notes.
 
-## Getting Started
-
-1. Clone this repository.
-2. Install dependencies using `npm install`.
-3. Set up environment variables.
-4. Ensure you have a running MongoDB instance or cluster.
-5. Run the server using `npm start`.
-
-
 ## User Management
 
 ### User Requests
@@ -55,6 +46,14 @@ The Apple Support Portal server side provides functionalities related to user ma
 
 - Create a ticket note.
 - Get notes for a ticket.
+
+## Getting Started
+
+1. Clone this repository.
+2. Install dependencies using `npm install`.
+3. Set up environment variables.
+4. Ensure you have a running MongoDB instance or cluster.
+5. Run the server using `npm start`.
 
 ## Configuration
 
