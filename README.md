@@ -4,7 +4,7 @@ Welcome to the **Apple Support Portal** server side repository. This repository 
 
 ## Overview
 
-The Apple Support Portal server side provides the following features:
+The Apple Support Portal provides the following features:
 
 - Develop a Support Portal inspired by Apple's Product Support System using Node.js, MongoDB, and Mongoose.
 - Enable users to register tickets for technical support with Apple products.
@@ -14,6 +14,12 @@ The Apple Support Portal server side provides the following features:
 - Utilize Mongoose for efficient MongoDB database interaction.
   - Seamlessly manage data models, validation, and queries.
   
+Welcome to the **Apple Support Portal** server side repository. This repository contains the backend server for the Apple Support Portal project, developed using Node.js, MongoDB, and Mongoose.
+
+## Overview of the Server Side
+
+The Apple Support Portal server side provides functionalities related to user management, support tickets, and notes.
+
 ## Getting Started
 
 1. Clone this repository.
@@ -22,7 +28,34 @@ The Apple Support Portal server side provides the following features:
 4. Ensure you have a running MongoDB instance or cluster.
 5. Run the server using `npm start`.
 
-For detailed setup instructions and usage examples, refer to the documentation provided within the project.
+
+## User Management
+
+### User Requests
+
+- Register a user to the MongoDB Database.
+- Retrieve a user from the MongoDB Database.
+
+### Authentication and JWT
+
+- Generate an authentication token using JWT.
+
+## Support Tickets
+
+### Tickets
+
+- Get user tickets.
+- Get details of a user ticket.
+- Create a support ticket (authentication required).
+- Delete a ticket.
+- Update ticket details.
+
+## Ticket Notes
+
+### Notes
+
+- Create a ticket note.
+- Get notes for a ticket.
 
 ## Configuration
 
@@ -39,7 +72,7 @@ We welcome contributions to the Apple Support Portal server side. Feel free to s
 
 If you have any questions or suggestions, please feel free to contact us.
 
-*Note:* The client side of the application is in a separate repository. You can find it here:
+## Note: The client side of the application is in a separate repository.
 https://github.com/akhmadmamirov/Apple-Product-Support
 ---
 
