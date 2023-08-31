@@ -39,7 +39,7 @@ We welcome contributions to the Apple Support Portal server side. Feel free to s
 
 If you have any questions or suggestions, please feel free to contact us.
 
-**Note:** The client side of the application is in a separate repository. You can find it here:
+*Note:* The client side of the application is in a separate repository. You can find it here:
 https://github.com/akhmadmamirov/Apple-Product-Support
 ---
 
