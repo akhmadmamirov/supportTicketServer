@@ -14,7 +14,6 @@ The Apple Support Portal provides the following features:
 - Utilize Mongoose for efficient MongoDB database interaction.
   - Seamlessly manage data models, validation, and queries.
   
-Welcome to the **Apple Support Portal** server side repository. This repository contains the backend server for the Apple Support Portal project, developed using Node.js, MongoDB, and Mongoose.
 
 ## Overview of the Server Side
 
